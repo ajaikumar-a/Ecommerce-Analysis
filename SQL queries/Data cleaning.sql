@@ -123,9 +123,7 @@ SET order_purchase_timestamp = CONVERT(date, CONVERT(datetime, order_purchase_ti
     order_approved_at = CONVERT(date, CONVERT(datetime, order_approved_at, 1), 112),
     order_delivered_carrier_date = CONVERT(date, CONVERT(datetime, order_delivered_carrier_date, 1), 112),
     order_delivered_customer_date = CONVERT(date, CONVERT(datetime, order_delivered_customer_date, 1), 112),
-    order_estimated_delivery_date = CONVERT(date, CONVERT(datetime, order_estimated_delivery_date, 1), 112)
-FROM
-  orders; 
+    order_estimated_delivery_date = CONVERT(date, CONVERT(datetime, order_estimated_delivery_date, 1), 112);
 
 **********************************************************************************************************************************************************************************************************************************************************************************************************************************	
 
